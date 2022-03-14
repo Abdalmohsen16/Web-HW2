@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
-    background-image: url("./background.jpg");
+    background-image: url(./background.jpg);
+    height: 100vh;
     background-size: cover;
+    background-position: center;
 }
 
 h1 {
@@ -15,10 +17,7 @@ h1 {
 }
 
 .bsize {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 0;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -30,8 +29,10 @@ button:hover {
     text-decoration: none;
 }
 
-a:link {
+a {
     text-decoration: none;
+    cursor: pointer;
+    padding: 10px 30px; 
 }
 
 a:hover {
